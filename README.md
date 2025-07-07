@@ -7,7 +7,7 @@
 - **LVGL 版本**：9.2.2
 - **MicroPython 版本**：基于 1.24.0 编译
 - **显示屏驱动**：gc9a01
-- **硬件平台**：支持 MicroPython 的主控板（如 ESP32s3）
+- **硬件平台**：支持 MicroPython 的主控板（如 ESP32S3）
 
 ## 目录结构
 
