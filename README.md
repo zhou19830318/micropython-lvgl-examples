@@ -147,12 +147,4 @@ micropython-lvgl-examples/
 
 ## 贡献
 
-欢迎提交 issue 或 PR 共同完善本项目！
-
-## License
-
-MIT
-
----
-
 如需更详细的驱动初始化说明或主控适配方案，可在 README 中进一步补充。如有其他定制化需求欢迎告知！
