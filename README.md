@@ -28,8 +28,8 @@ micropython-lvgl-examples/
    按照 gc9a01 屏幕和主控板的硬件手册完成连线。
 
 3. **依赖库准备**  
-   - lvgl Python 绑定
-   - gc9a01 驱动（如需单独导入 Python 驱动文件）
+   - lvgl-micropython
+   - gc9a01
 
 ## 快速开始
 
