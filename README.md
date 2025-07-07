@@ -144,6 +144,7 @@ micropython-lvgl-examples/
 - [LVGL 官方文档](https://docs.lvgl.io/latest/zh/)
 - [lvgl-micropython](https://github.com/lvgl-micropython/lvgl_micropython)
 - [MicroPython 官方网站](https://micropython.org/)
+- [lvgl官方例程](https://docs.lvgl.io/9.2/examples.html)
 
 ## 贡献
 
