@@ -1,7 +1,16 @@
-#!/opt/bin/lv_micropython -i
-import time
 import lvgl as lv
-import display_driver
+import fs_driver
+from display_driver import init_display
+import task_handler
+
+# Initialize LVGL
+lv.init()
+
+# Initialize display using the driver module
+display = init_display()
+display.init()
+
+scr = lv.screen_active()
 
 def anim_x_cb(label, v):
     label.set_x(v)
@@ -32,15 +41,14 @@ def sw_event_cb(e,label):
 # Start animation on an event
 #
 
-label = lv.label(lv.scr_act())
+label = lv.label(scr)
 label.set_text("Hello animations!")
-label.set_pos(100, 10)
+label.set_pos(60, 20)
 
 
-sw = lv.switch(lv.scr_act())
+sw = lv.switch(scr)
 sw.center()
 sw.add_state(lv.STATE.CHECKED)
 sw.add_event_cb(lambda e: sw_event_cb(e,label), lv.EVENT.VALUE_CHANGED, None)
 
-
-
+th = task_handler.TaskHandler()
