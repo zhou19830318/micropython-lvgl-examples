@@ -22,7 +22,7 @@ micropython-lvgl-examples/
 ## 环境准备
 
 1. **MicroPython 固件**  
-   使用基于 1.24.0 版本、已集成 lvgl 和 gc9a01 驱动的固件。可参考 [lv_binding_micropython](https://github.com/lvgl/lv_binding_micropython) 仓库进行编译。
+   使用基于 1.24.0 版本、已集成 lvgl 和 gc9a01 驱动的固件。可参考 [lvgl-micropython](https://github.com/lvgl-micropython) 仓库进行编译。
 
 2. **硬件连接**  
    按照 gc9a01 屏幕和主控板的硬件手册完成连线。
